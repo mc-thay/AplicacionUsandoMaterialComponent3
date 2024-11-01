@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/md_theme_primary</item> <!-- Rojo -->
+        <item name="android:textColor">@color/md_theme_onPrimary</item> <!-- Blanco -->
+    </style>
+    <style name="Base.Theme.AppUNS" parent="Theme.Material3.Light.NoActionBar"> <!-- Cambiar aquí -->
+        <item name="android:colorBackground">@android:color/white</item> <!-- Fondo blanco para fragmentos -->
+        <item name="android:textColor">@android:color/black</item> <!-- Texto negro -->
+        <item name="bottomNavigationStyle">@style/BottomNavStyle</item> <!-- Agrega este ítem -->
+    </style>
+
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemBackground">@color/md_theme_primary</item> <!-- Fondo de los elementos -->
+        <item name="itemIconTint">@color/md_theme_onPrimary</item> <!-- Color de los íconos -->
+        <item name="itemTextColor">@color/md_theme_onPrimary</item> <!-- Color del texto -->
+    </style>
+
+</resources>
+

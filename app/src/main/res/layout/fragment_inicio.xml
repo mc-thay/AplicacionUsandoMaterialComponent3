@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".InicioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Logo de la universidad -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logo_description"
+            android:maxWidth="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logouns" />
+
+        <!-- Mensaje de bienvenida -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenidos a la Facultad de Ingeniería!"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aquí encontrarás información importante sobre nuestra misión, visión y actividades."
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Imagen de fondo redondeada en LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_background"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/inicioImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/inicio_image_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/inicio1" />
+        </LinearLayout>
+
+        <!-- Título de Misión -->
+        <TextView
+            android:id="@+id/tvMision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mision_title"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Texto de Misión -->
+        <TextView
+            android:id="@+id/tvMisionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mision_description"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:background="@drawable/text_background"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Título de Visión -->
+        <TextView
+            android:id="@+id/tvVision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vision_title"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Texto de Visión -->
+        <TextView
+            android:id="@+id/tvVisionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vision_description"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:background="@drawable/text_background"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>

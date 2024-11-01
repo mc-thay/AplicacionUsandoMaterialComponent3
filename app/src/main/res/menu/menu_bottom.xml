@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/page_home"
+        android:icon="@drawable/icon_home"
+        android:title="@string/content_faculty" />
+    <item
+        android:id="@+id/page_announcements"
+        android:icon="@drawable/icon_announcements"
+        android:title="@string/content_announcements" />
+    <item
+        android:id="@+id/page_scholarships"
+        android:icon="@drawable/icon_scolarships"
+        android:title="@string/content_scholarships" />
+    <item
+        android:id="@+id/page_contests"
+        android:icon="@drawable/icon_contests"
+        android:title="@string/content_contests" />
+    <item
+        android:id="@+id/page_trainings"
+        android:icon="@drawable/icon_training"
+        android:title="@string/content_training" />
+</menu>

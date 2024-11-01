@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">appUNS</string>
+
+    <string name="content_announcements">Anuncios</string>
+    <string name="content_scholarships">Becas</string>
+    <string name="content_contests">Concursos</string>
+    <string name="content_training">Capacitaciones</string>
+    <string name="content_faculty">Inicio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_uns">Logo UNS</string>
+    <string name="ver_mas_becas">Ver más becas</string>
+    <string name="descripcion_beca_image">Imagen de beca</string>
+    <string name="beca_nacional">Beca Nacional de Excelencia</string>
+    <string name="beca_social">Beca de Desarrollo Social</string>
+    <string name="beca_investigacion">Beca de Investigación</string>
+
+    <string name="logo_description">Logo de la Universidad Nacional del Santa</string>
+    <string name="inicio_image_description">Imagen de inicio con fondo redondeado</string>
+    <string name="mision_title">MISIÓN</string>
+    <string name="mision_description">Brindar formación profesional humanística, científica y tecnológica a los estudiantes, con calidad y responsabilidad social y ambiental.</string>
+    <string name="vision_title">VISIÓN</string>
+    <string name="vision_description">En el año 2019 la UNS es una institución licenciada, cuenta con sus Escuelas de Pregrado y Postgrado que participan en el desarrollo sostenible del país mediante la investigación más desarrollo e innovación, tecnología; sus egresados son profesionales líderes, competentes, creativos, proactivos inmersos en el mercado laboral nacional e internacional.</string>
+
+</resources>
